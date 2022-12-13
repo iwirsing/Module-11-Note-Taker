@@ -9,7 +9,7 @@ const { v4: uuidv4 } = require('uuid');
 notes.get('/notes',(req,res)=>{
     readFromFile('./db/db.json').then((data)=>{
         res.json(JSON.parse(data));
-    })
+    }).catch(err => res.status(400).json(err));
         
 });
 
@@ -51,6 +51,7 @@ notes.delete('/notes/:id',(req,res)=>{
         //show feedback to delete request
         res.json('The note with id '+noteId+' has been successfully deleted.')
     })
+    .catch(err => res.status(400).json(err));
 });
 
 module.exports=notes;
