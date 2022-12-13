@@ -8,11 +8,12 @@ A user is able to write, save and delete notes. This application uses Express.js
 ##  Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage) 
-3. [Contributing](#contributing) 
-4. [Test](#test) 
-5. [Questions](#questions)
-6. [License](#license)
-7. [Sources](#sources)
+3. [Screenshots](#screenshots)
+4. [Contributing](#contributing) 
+5. [Test](#test) 
+6. [Questions](#questions)
+7. [License](#license)
+8. [Sources](#sources)
 
 ## Installation 
 
@@ -24,6 +25,12 @@ After installation, the application can be used by running this `node server.js`
 
 Otherwise use the deployed app in Heroku: https://note-taker-wirsing.herokuapp.com/
 
+## Screenshots
+The index.html or landing page:
+![landing page](./assets/note-taker-landing-page.png)
+
+The notes.html or notes page:
+![landing page](./assets/note-taker-notes.png)
 
 ## Contributing 
 
