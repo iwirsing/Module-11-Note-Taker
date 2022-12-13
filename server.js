@@ -3,7 +3,7 @@ const path = require('path');
 const apiRoute = require('./routes/apiRoute');
 const homeRoute = require('./routes/homeRoute');
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 
 
