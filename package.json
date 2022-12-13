@@ -1,14 +1,26 @@
 {
-  "name": "note-taker",
+  "name": "module-11-note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows users to write and save notes using Express.js in the backend and stores and retrieves from a JSON file.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwirsing/Module-11-Note-Taker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwirsing/Module-11-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/iwirsing/Module-11-Note-Taker#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "uuid": "^9.0.0"
   }
 }
