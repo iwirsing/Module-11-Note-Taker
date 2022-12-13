@@ -3,7 +3,7 @@
 
 ##  Description:
 
-A user is able to write, save and delete notes. This application uses Express.js for the back end. This will save, retrieve and delete notes from the JSON file. This application is deployed in Heroku.
+A user is able to write, save and delete notes. This application uses Express.js for the back end. This will save, retrieve and delete notes from the JSON file. This application is deployed in [Heroku](https://note-taker-wirsing.herokuapp.com).
 
 ##  Table of Contents 
 1. [Installation](#installation)
@@ -17,7 +17,7 @@ A user is able to write, save and delete notes. This application uses Express.js
 
 ## Installation 
 
-This project can be ran from the deployed heroku site: https://note-taker-wirsing.herokuapp.com/ or can be downloaded to a local computer using `git clone <https of this repository>`. Then install the dependencies using `npm i`. a
+This project can be ran from the deployed heroku site: https://note-taker-wirsing.herokuapp.com/ or can be downloaded to a local computer using `git clone <https of this repository>`. Then install the dependencies using `npm i`. 
 
 ## Usage 
 
